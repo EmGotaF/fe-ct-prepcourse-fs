@@ -2,9 +2,8 @@ const obtenerValorPropiedad = (objeto, propiedad) => {
    // Recibe un objeto y el nombre de una propiedad.
    // Devuelve el valor de esta propiedad.
    // Tu código:
-   const a = objeto[propiedad];
-
-   return a;
+   const valor = objeto[propiedad];
+   return valor;
 };
 
 module.exports = obtenerValorPropiedad;
